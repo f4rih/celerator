@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "celerator"
+version = "0.1.0"
+description = "A terminal-based Celery monitoring and debugging tool."
+readme = "README.md"
+license = "MIT"
+authors = [
+    { name = "Fardin Allahverdi", email = "farih@pm.me" }
+]
+dependencies = [
+    "celery>=5.5.2",
+    "textual>=3.2.0",
+    "rich>=14.0.0",
+    "redis>=6.0.0"
+]
+
+[project.scripts]
+celerator = "celerator.cli:main"
+
+[tool.setuptools]
+packages = ["celerator", "celerator.widgets", "celerator.models"]
+
+[tool.setuptools.package-data]
+"celerator" = ["styles/*.tcss"]
