@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/f4rih/celerator/refs/heads/main/celerator_logo.png" alt="Celerator Logo" width="240"/>
+  <img src="https://raw.githubusercontent.com/f4rih/celerator/refs/heads/main/logo/celerator_logo.png" alt="Celerator Logo" width="240"/>
 </p>
 
 <h1 align="center">Celerator</h1>
@@ -31,7 +31,9 @@ It uses Celery's built-in **event system**, meaning no code changes are required
 
 ## 📸 Screenshot
 
-> _Replace this with a terminal screenshot of the app_
+<p align="center">
+  <img src="https://raw.githubusercontent.com/f4rih/celerator/refs/heads/main/screenshots/celerator.png" alt="Celerator Demo" width="720"/>
+</p>
 
 ---
 
